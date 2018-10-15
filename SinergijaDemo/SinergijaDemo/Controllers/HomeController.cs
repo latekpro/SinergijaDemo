@@ -18,6 +18,7 @@ namespace SinergijaDemo.Controllers
         public IActionResult About()
         {
             ViewData["Message"] = "Your application description page.";
+            System.Threading.Thread.Sleep(4000);
 
             return View();
         }
